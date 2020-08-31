@@ -1,0 +1,730 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+  color: #2F4F4F;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5f6b77;
+  color: #2d844e;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+/* Home page Header */
+
+.header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 30px;
+	background-color: #fff;
+	overflow: hidden;
+	display: flex;
+}
+
+.header .profile-img {
+	padding: 40px 100px 20px;
+
+}
+
+.header .profile-text h1 {
+	font-family: Libre Caslon Display, sans-serif;
+	font-size: 3em;
+	color: #000000;
+	font-weight: 700;
+	padding: 10px 80px 0px;
+}
+
+.header .profile-text .nav {
+	padding: 10px 60px 10px;
+
+}
+
+.header .profile-text .nav a {
+  color: #191970;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.header .profile-text .nav a:hover {
+  color: #6495ED;
+  text-decoration: none;
+
+}
+
+.header .profile-text .social {
+	padding: 8px 80px 10px;
+}
+
+.header .profile-text .social a {
+  background: #000000;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+
+.header .profile-text .social a:hover {
+  background: #6495ED;
+
+} 
+
+.header .profile-text .social a .svg-inline--fa {
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+/* About page Header */
+
+.header2 {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 30px;
+	background-color: #fff;
+	background-image: url(hero-3.jpg);
+	background-size: cover;
+	overflow: hidden;
+	display: flex;
+}
+
+.header2 .profile-img {
+	padding: 40px 100px 20px;
+
+}
+
+.header2 .profile-text h1 {
+	font-family: Libre Caslon Display, sans-serif;
+	font-size: 3em;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 80px 0px;
+}
+
+.header2 .profile-text .nav {
+	padding: 10px 60px 10px;
+
+}
+
+.header2 .profile-text .nav a {
+  color: #fff;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.header2 .profile-text .nav a:hover {
+  color: #808080;
+  text-decoration: none;
+
+}
+
+.header2 .profile-text .social {
+	padding: 8px 80px 10px;
+}
+
+.header2 .profile-text .social a {
+  background: #000000;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+
+.header2 .profile-text .social a:hover {
+  background: #808080;
+
+} 
+
+.header2 .profile-text .social a .svg-inline--fa {
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+/* Contact page Header */
+
+.header3 {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 30px;
+	background-color: #fff;
+	background-image: url(hero-4.jpg);
+	background-size: cover;
+	overflow: hidden;
+	display: flex;
+}
+
+.header3 .profile-img {
+	padding: 40px 100px 20px;
+
+}
+
+.header3 .profile-text h1 {
+	font-family: Libre Caslon Display, sans-serif;
+	font-size: 3em;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 80px 0px;
+}
+
+.header3 .profile-text .nav {
+	padding: 10px 60px 10px;
+
+}
+
+.header3 .profile-text .nav a {
+  color: #fff;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.header3 .profile-text .nav a:hover {
+  color: #808080;
+  text-decoration: none;
+
+}
+
+.header3 .profile-text .social {
+	padding: 8px 80px 10px;
+}
+
+.header3 .profile-text .social a {
+  background: #000000;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+
+.header3 .profile-text .social a:hover {
+  background: #808080;
+
+} 
+
+.header3 .profile-text .social a .svg-inline--fa {
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+/* Reminder page Header */
+
+.header4 {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 30px;
+	background-color: #fff;
+	background-image: url(hero-5.jpg);
+	background-size: cover;
+	overflow: hidden;
+	display: flex;
+}
+
+.header4 .profile-img {
+	padding: 40px 100px 20px;
+
+}
+
+.header4 .profile-text h1 {
+	font-family: Libre Caslon Display, sans-serif;
+	font-size: 3em;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 80px 0px;
+}
+
+.header4 .profile-text .nav {
+	padding: 10px 60px 10px;
+
+}
+
+.header4 .profile-text .nav a {
+  color: #fff;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.header4 .profile-text .nav a:hover {
+  color: #808080;
+  text-decoration: none;
+
+}
+
+.header4 .profile-text .social {
+	padding: 8px 80px 10px;
+}
+
+.header4 .profile-text .social a {
+  background: #000000;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+
+.header4 .profile-text .social a:hover {
+  background: #808080;
+
+} 
+
+.header4 .profile-text .social a .svg-inline--fa {
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+
+section {
+	padding: 10px 100px 20px;
+	height: 80vh;
+}
+
+:root {
+  /* The intrinsic width of the underline stroke (in pixels). This is 
+   * the same as the height of the cap images. Don't specify the
+   * units! This is because of some of the calculations we do later on. */
+  --underline-intrinsic-width: 8;
+  
+  /* The actual width of the underline stroke we want to render (in pixels).
+   * You can modify this, and the sizing and positioning should be calculated
+   * accordingly. Again, Don't specify the units! */
+  --underline-width: 12;
+  
+  /* The colour used to draw the underline. It should match the colour
+   * used in the cap images... unfortunately we can't modify the SVG
+   * fill via CSS because it's a background image. */
+  --underline-color: #f1a1e3;
+  
+  /* We need to know the width of the cap images so that we
+   * can position everything on the x axis accordingly. */
+  --underline-cap-width: 4px;
+  
+  /* The border is positioned relative to the bottom of the line.
+   * We can move it upwards a little to create an overlap effect. */
+  --underline-offset-y: -2px;
+  
+  /* The padding to add to the x axis. By default, the caps would be
+   * aligned with the beginning and end of the line. */
+  --underline-padding-x: 0.12em;
+  
+  /* The cap images to use that form the left and right rounded
+   * shape. I guess these could be any shape, they don't
+   * necessarily have to be round 🙂.
+   */
+  --cap-image-left: url(https://files-d4s40otz1.now.sh/left.svg);
+  --cap-image-right: url(https://files-4vvqilj8v.now.sh/right.svg);
+}
+
+section h1 {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: Libre Caslon Display, sans-serif;
+
+  display: inline;
+  --underline-width-scale: calc(var(--underline-width) / var(--underline-intrinsic-width));
+  padding: 0 calc(var(--underline-padding-x) + calc(var(--underline-cap-width) * var(--underline-width-scale)));
+  box-decoration-break: clone;
+  background-repeat: no-repeat;
+  color: #000000;
+  background-image:
+  linear-gradient(180deg, var(--underline-color), var(--underline-color)),
+    var(--cap-image-left),
+    var(--cap-image-right);
+  background-position-x:
+    calc(var(--underline-cap-width) * var(--underline-width-scale)),0,100%;
+  background-position-y: calc(100% - var(--underline-offset-y) * -1);
+  background-size:
+    calc(100% - calc(var(--underline-cap-width) * var(--underline-width-scale) * 2)) calc(var(--underline-width) * 1px),
+    auto calc(var(--underline-width) * 1px),
+    auto calc(var(--underline-width) * 1px);
+
+}
+
+section p {
+	font-size: 1.2em;
+ 	padding-top: 30px;
+ 	font-family:  Lato, sans-serif;
+	
+}
+
+
+/* ======= Footer ======= */
+.footer {
+  background: #fff;
+  color: #808080;
+  padding: 10px 0px 10px;
+}
+
+.footer .copyright {
+  line-height: 1.6;
+  color: #a1aab4;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #808080;
+}
+
+.footer .fa-heart {
+  color: #fb866a;
+}
+
+
+@media only screen and (min-width: 360px) {
+
+	.header {
+		height: 80vh;
+
+	}
+
+	.header .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header .profile-text h1 {
+		padding: 20px 40px 0px;
+	}
+
+	.header .profile-text .nav {
+		padding: 10px 20px 10px;
+
+	}
+
+	.header .profile-text .social {
+		padding: 0px 40px 0px;
+	}
+
+	.header2 {
+		height: 80vh;
+	}
+
+
+	.header2 .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header2 .profile-text h1 {
+		padding: 20px 40px 0px;
+	}
+
+	.header2 .profile-text .nav {
+		padding: 10px 20px 10px;
+
+	}
+
+	.header2 .profile-text .social {
+		padding: 0px 40px 0px;
+	}
+
+	.header3 {
+		height: 80vh;
+	}
+
+	.header3 .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header3 .profile-text h1 {
+		padding: 20px 40px 0px;
+	}
+
+	.header3 .profile-text .nav {
+		padding: 10px 20px 10px;
+
+	}
+
+	.header3 .profile-text .social {
+		padding: 0px 40px 0px;
+	}
+
+	.header4 {
+		height: 80vh;
+	}
+
+	.header4 .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header4 .profile-text h1 {
+		padding: 20px 40px 0px;
+	}
+
+	.header4 .profile-text .nav {
+		padding: 10px 20px 10px;
+
+	}
+
+	.header4 .profile-text .social {
+		padding: 0px 40px 0px;
+	}
+
+	section {
+		padding: 130px 50px 0px;
+	}
+
+	.footer {
+		padding-top: 140vh;
+		padding-bottom: 20px;
+	}
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	.header {
+		height: 30vh;
+
+	}
+
+	.header .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	.header2 .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header2 .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header2 .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header2 .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	.header3 .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header3 .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header3 .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header3 .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	.header4 .profile-img {
+		padding-right: 60px;
+		padding-left: 60px; 
+
+	}
+
+	.header4 .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header4 .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header4 .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	section {
+		padding: 110px 150px 0px;
+	}
+
+	.footer {
+		padding-top: 0px;
+		padding-bottom: 20px;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+	.header {
+		height: 50vh;
+
+	}
+
+	.header .profile-img {
+		padding-right: 30px;
+		padding-left: 60px; 
+
+	}
+
+	.header .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	.header2 {
+		height: 100vh;
+	}
+
+	.header2 .profile-img {
+		padding-right: 30px;
+		padding-left: 60px; 
+
+	}
+
+	.header2 .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header2 .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header2 .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	.header3 {
+		height: 100vh;
+	}
+
+	.header3 .profile-img {
+		padding-right: 30px;
+		padding-left: 60px; 
+
+	}
+
+	.header3 .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header3 .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header3 .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	.header4 {
+		height: 100vh;
+	}
+
+	.header4 .profile-img {
+		padding-right: 30px;
+		padding-left: 60px; 
+
+	}
+
+	.header4 .profile-text h1 {
+		padding: 40px 0px 0px;
+	}
+
+	.header4 .profile-text .nav {
+		padding: 10px 0px 10px;
+
+	}
+
+	.header4 .profile-text .social {
+		padding: 0px 0px 10px;
+	}
+
+	section {
+		padding: 0px 300px 0px;
+	}
+
+
+	.footer{
+		padding-top: 10vh;
+	}
+
+
+}
+
